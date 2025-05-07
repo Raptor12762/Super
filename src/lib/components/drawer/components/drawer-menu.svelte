@@ -43,7 +43,7 @@
 	class={cn(menuClass, (!$show$ && 'w-[60px]') || 'pt-6')}
 	onoutclick={() => close_drawer()}
 >
-	<!-- Hamborgor Button -->
+	<!-- Hamborger Button -->
 	<Flex.Row class="w-full h-fit relative z-0">
 		{#if $show$}
 			<div

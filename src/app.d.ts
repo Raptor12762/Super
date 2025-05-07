@@ -1,3 +1,5 @@
+import "unplugin-icons/types/svelte"
+
 
 /* eslint-disable @typescript-eslint/no-unused-vars */
 // See https://kit.svelte.dev/docs/types#app

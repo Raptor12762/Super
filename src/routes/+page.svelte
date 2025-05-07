@@ -1,11 +1,26 @@
 <script lang="ts">
 	import { Drawer } from '@lib/components';
-</script>
+	import DrawerItem from '@root/lib/components/drawer/components/drawer-item.svelte';
+	import MaterialSymbolsPerson from '~icons/material-symbols/person';
+	import RiInfoI from '~icons/ri/info-i';
+	import ElGroup from '~icons/el/group';
+	</script>
 
+
+<!--Drawer, copy and past the stuff in the ts script (and the script too if not already done) to put it on other pages-->
 <Drawer.Root active={true}>
 	<Drawer.Menu>
-		<Drawer.Item href="/about">about</Drawer.Item>
+		<Drawer.Item href="/src/routes">
+			<MaterialSymbolsPerson class="size-6 shrink-0"/>
+			{#snippet slot_text()}
+				<span class="text-inherit">Home</span>
+			{/snippet}
+		</Drawer.Item>
+		<Drawer.Item href="/about">
+			<RiInfoI class="size-6 shrink-0"/>
+					{#snippet slot_text()}
+						<span class="text-inherit">About</span>
+					{/snippet}
+		</Drawer.Item>
 	</Drawer.Menu>
 </Drawer.Root>
-
-<div class="flex flex-auto bg-[#ABCDEF]">this is a div tag. this div tag has this text contained in the div tag.</div>
