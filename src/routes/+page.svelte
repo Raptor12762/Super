@@ -8,4 +8,4 @@
 	</Drawer.Menu>
 </Drawer.Root>
 
-<span>:D</span>
+<div class="flex flex-auto bg-[#ABCDEF]">this is a div tag. this div tag has this text contained in the div tag.</div>
