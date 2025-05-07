@@ -24,3 +24,9 @@
 		</Drawer.Item>
 	</Drawer.Menu>
 </Drawer.Root>
+
+<div class="w-full flex flex-row justify-center pt-5">
+	<div class="box-content size-32 p-30 bg-blue-500 w-1/2 rounded-3xl">
+
+	</div>
+</div>
