@@ -1,12 +1,10 @@
 <script lang="ts">
 	import '../app.css';
 
-	import { Frame } from 'sk-clib';
 
 	let { children } = $props();
 </script>
 
-
-<Frame flex row fill>
+<div class="flex flex-row size-full">
 	{@render children()}
-</Frame>
+</div>
