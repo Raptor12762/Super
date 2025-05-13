@@ -12,7 +12,7 @@
 <!--Drawer, copy and past the stuff in the ts script (and the script too if not already done) to put it on other pages-->
 <Drawer.Root active={true}>
 	<Drawer.Menu>
-		<Drawer.Item href="/src/routes">
+		<Drawer.Item href="/">
 			<PixelHomeSolid class="size-6 shrink-0" />
 			{#snippet slot_text()}
 				<span class="text-inherit">Home</span>
@@ -47,11 +47,31 @@
 </Drawer.Root>
 
 <Flex fill col centerx class="box-border gap-20 p-10">
-	<Frame flex row fillh class="w-[60%] rounded-md bg-red-200"></Frame>
-	<Frame row fill class="root-grid-box grid rounded-md bg-red-200">
+	<Frame flex row fillh class="w-[60%] rounded-md bg-red-200">
+		<h1 class="text-5xl font-bold mx-auto pt-6">Mug Corp</h1>
+	</Frame>
+	<!--Grid which shows the heros and villains, go this is pain-->
+	<Frame row fill class="root-grid-box grid rounded-md gap-x-5">
 		<Flex fill center class="col-span-4 row-start-1 bg-white">
 			<Header bold xxl>Heros</Header>
 		</Flex>
+
+		<Frame class="row-start-2 col-span-1 bg-orange-600">
+
+		</Frame>
+
+		<Frame class="row-start-2 col-start-2 col-span-1 bg-orange-600">
+
+		</Frame>
+
+		<Frame class="row-start-2 col-start-3 col-span-1 bg-orange-600">
+
+		</Frame>
+
+		<Frame class="row-start-2 col-start-4 col-span-1 bg-orange-600">
+
+		</Frame>
+
 		<Flex fill center class="col-span-4 row-start-3 bg-white">
 			<Header bold xxl>Villians</Header>
 		</Flex>
