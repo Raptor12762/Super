@@ -89,18 +89,21 @@
 				</Drawer.Item>
 					{/snippet}
 					<Drawer.Item href="/characters/Heroes/Archer">
+						<div class="pl-2 ..."></div>
 						{#snippet slot_text()}
 							<span class="text-inherit">Archer</span>
 						{/snippet}
 					</Drawer.Item>
 
 					<Drawer.Item href="/characters/Heroes/Cannoneer">
+						<div class="pl-2 ..."></div>
 						{#snippet slot_text()}
 							<span class="text-inherit">Cannoneer</span>
 						{/snippet}
 					</Drawer.Item>
 
 					<Drawer.Item href="/characters/Heroes/Longbow">
+						<div class="pl-2 ..."></div>
 						{#snippet slot_text()}
 							<span class="text-inherit">Longbow</span>
 						{/snippet}
