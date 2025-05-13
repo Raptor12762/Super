@@ -47,7 +47,7 @@
 					<div class="pl-2 ..."></div>
 					<FluentEmojiHighContrastManSuperhero class="size-6 shrink-0"/>
 					{#snippet slot_text()}
-						<span class="text-inherit">Heros</span>
+						<span class="text-inherit">Mugs</span>
 					{/snippet}
 					{#snippet slot_right()}
 						<IconCaret
@@ -116,7 +116,7 @@
 					<div class="pl-2 ..."></div>
 					<FluentEmojiHighContrastPersonSupervillain class="size-6 shrink-0"/>
 					{#snippet slot_text()}
-						<span class="text-inherit">Villains</span>
+						<span class="text-inherit">Teapots</span>
 					{/snippet}
 					{#snippet slot_right()}
 						<IconCaret
