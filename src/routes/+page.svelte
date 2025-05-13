@@ -172,6 +172,7 @@
 		<h1 class="text-5xl font-bold mx-auto pt-6">Mug Corp</h1>
 	</Frame>
 	<!--Grid which shows the heros and villains, go this is pain-->
+	<!--I agree, this is pain-->
 	<Frame row fill class="root-grid-box grid rounded-md gap-x-5">
 		<Flex fill center class="col-span-4 row-start-1 bg-white">
 			<Header bold xxl>Heros</Header>
