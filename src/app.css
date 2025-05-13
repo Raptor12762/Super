@@ -1,4 +1,5 @@
 @import 'tailwindcss';
+@import 'sk-clib/style';
 
 @theme {
     --color-primary: #9013d9;
