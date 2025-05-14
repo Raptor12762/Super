@@ -173,5 +173,3 @@
   <div class="col-span-2 mr-4 mt-4 bg-amber-600">02</div>
   <div class="col-span-2 row-span-2 mr-4 mb-4 bg-amber-300">03</div>
 </div>
-
-

@@ -167,3 +167,9 @@
 	</Drawer.Menu>
 </Drawer.Root>
 <!--nice-->
+
+<div class="grid grid-flow-col w-full grid-rows-3 gap-4">
+  <div class="row-span-3 ml-4 mt-4 mb-4 bg-amber-900">01</div>
+  <div class="col-span-2 mr-4 mt-4 bg-amber-600">02</div>
+  <div class="col-span-2 row-span-2 mr-4 mb-4 bg-amber-300">03</div>
+</div>
