@@ -1,0 +1,1 @@
+export { default as DrawerRendered } from "./drawer_rendered_component.svelte"

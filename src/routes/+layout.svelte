@@ -1,11 +1,15 @@
 <script lang="ts">
 	import '../app.css';
 
+    // --- Components ---
+    import {DrawerRendered} from "@lib/components"
 
 	let { children } = $props();
 </script>
 
 <div class="flex flex-row size-full">
+    <DrawerRendered/>
+
 	{@render children()}
 </div>
 
