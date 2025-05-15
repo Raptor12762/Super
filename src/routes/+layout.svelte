@@ -23,12 +23,6 @@
                     <a href="#" class="hover:underline me-4 md:me-6 text-white">About</a>
                 </li>
                 <li>
-                    <a href="#" class="hover:underline me-4 md:me-6 text-white">Privacy Policy</a>
-                </li>
-                <li>
-                    <a href="#" class="hover:underline me-4 md:me-6 text-white">Licensing</a>
-                </li>
-                <li>
                     <a href="#" class="hover:underline text-white">Contact</a>
                 </li>
             </ul>

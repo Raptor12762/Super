@@ -156,7 +156,6 @@
 		</Drawer.Item>
 	</Drawer.Menu>
 </Drawer.Root>
-<!--nice-->
 
 <!--Image with header fro character name, make sure it's centered to the box-->
 <div class="grid w-full grid-flow-col grid-rows-3 gap-4 bg-[#EBBB98]">
