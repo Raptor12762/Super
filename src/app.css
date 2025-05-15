@@ -12,3 +12,9 @@
         margin: 0;
     }
 }
+
+@layer components {
+    .animate-forwards {
+        animation-fill-mode: forwards;
+    }
+}

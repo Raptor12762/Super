@@ -14,7 +14,8 @@ const config = {
 
 		alias: {
 			'@root': 'src/',
-			'@lib': 'src/lib'
+			'@lib': 'src/lib',
+			'@assets': 'src/assets'
 		}
 	}
 };
