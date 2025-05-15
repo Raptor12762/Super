@@ -81,44 +81,12 @@
 						<span class="text-inherit">Shattershot</span>
 					{/snippet}
 				</Drawer.Item>
-				<Drawer.Dropdown>
-					{#snippet slot_root($dropdown_show$)}
-				<Drawer.Item root>
-					<div class="pl-8 ..."></div>
+				
+				<Drawer.Item href="/characters/Heroes/Mugarmy">
 					{#snippet slot_text()}
 						<span class="text-inherit">The Mug-Army</span>
 					{/snippet}
-					{#snippet slot_right()}
-						<IconCaret
-							class={cn(
-							'shrink-0 rotate-180 animate ease-out',
-							$dropdown_show$ && 'rotate-270'
-						)}
-						/>
-					{/snippet}
 				</Drawer.Item>
-					{/snippet}
-					<Drawer.Item href="/characters/Heroes/Archer">
-						<div class="pl-2 ..."></div>
-						{#snippet slot_text()}
-							<span class="text-inherit">Archer</span>
-						{/snippet}
-					</Drawer.Item>
-
-					<Drawer.Item href="/characters/Heroes/Cannoneer">
-						<div class="pl-2 ..."></div>
-						{#snippet slot_text()}
-							<span class="text-inherit">Cannoneer</span>
-						{/snippet}
-					</Drawer.Item>
-
-					<Drawer.Item href="/characters/Heroes/Longbow">
-						<div class="pl-2 ..."></div>
-						{#snippet slot_text()}
-							<span class="text-inherit">Longbow</span>
-						{/snippet}
-					</Drawer.Item>
-				</Drawer.Dropdown>
 			</Drawer.Dropdown>
 			<Drawer.Dropdown>
 				{#snippet slot_root($dropdown_show$)}
