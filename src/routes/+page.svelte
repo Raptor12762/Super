@@ -2,7 +2,6 @@
 	import { Flex, Frame, Header } from 'sk-clib';
 </script>
 
-<!--Drawer, copy and past the stuff in the ts script (and the script too if not already done) to put it on other pages-->
 
 <Flex fill col centerx class="box-border gap-20 p-10">
 	<Frame flex row fillh class="w-[60%] rounded-md bg-red-200">
