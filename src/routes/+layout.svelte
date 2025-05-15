@@ -13,7 +13,9 @@
 	{@render children()}
 </div>
 
-<footer class=" shadow-sm bg-primary">
+
+
+<footer class=" shadow-sm w-full bg-primary">
     <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <div class="sm:flex sm:items-center sm:justify-between">
             <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
@@ -25,11 +27,17 @@
                     <a href="#" class="hover:underline me-4 md:me-6 text-white">About</a>
                 </li>
                 <li>
+                    <a href="#" class="hover:underline me-4 md:me-6 text-white">Privacy Policy</a>
+                </li>
+                <li>
+                    <a href="#" class="hover:underline me-4 md:me-6 text-white">Licensing</a>
+                </li>
+                <li>
                     <a href="#" class="hover:underline text-white">Contact</a>
                 </li>
             </ul>
         </div>
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-        <span class="block text-sm sm:text-center text-white">© 2023 <a href="https://flowbite.com/" class="hover:underline">Flowbite™</a>. All Rights Reserved.</span>
+        <span class="block text-sm sm:text-center text-white text-white">© 2023 <a href="https://flowbite.com/" class="hover:underline">Flowbite™</a>. All Rights Reserved.</span>
     </div>
 </footer>
