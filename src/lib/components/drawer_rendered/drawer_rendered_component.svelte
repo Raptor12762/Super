@@ -15,9 +15,15 @@
 	import IconCaret from '~icons/solar/alt-arrow-left-bold';
 	import FluentEmojiHighContrastManSuperhero from '~icons/fluent-emoji-high-contrast/man-superhero';
 	import FluentEmojiHighContrastPersonSupervillain from '~icons/fluent-emoji-high-contrast/person-supervillain';
+
+	// import teapotIcon from '~icons/'
+	
+	import MugIcon from "~icons/my-images/mugicon"
+	import TeapotIcon from "~icons/my-images/teapoticon"
+
 </script>
 
- 
+
 <Drawer.Root active={true}>
 	<Drawer.Menu>
 		<Drawer.Item href="/">
@@ -49,7 +55,7 @@
 				{#snippet slot_root($dropdown_show$)}
 				<Drawer.Item root>
 					<div class="pl-2 ..."></div>
-					<FluentEmojiHighContrastManSuperhero class="size-6 shrink-0"/>
+					<MugIcon class="size-9 shrink-0"/>
 					{#snippet slot_text()}
 						<span class="text-inherit">Mugs</span>
 					{/snippet}
@@ -118,7 +124,7 @@
 				{#snippet slot_root($dropdown_show$)}
 				<Drawer.Item root>
 					<div class="pl-2 ..."></div>
-					<FluentEmojiHighContrastPersonSupervillain class="size-6 shrink-0"/>
+					<TeapotIcon class="size-9 shrink-0"/>
 					{#snippet slot_text()}
 						<span class="text-inherit">Teapots</span>
 					{/snippet}
