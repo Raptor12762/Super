@@ -4,13 +4,13 @@
 </script>
 
 <!--Image with header fro character name, make sure it's centered to the box-->
-<div class="grid w-full grid-flow-col grid-rows-3 gap-4 bg-[#EBBB98]">
+<div class="grid size-full grid-flow-col grid-rows-3 gap-4 bg-[#EBBB98]">
 	<div class=" flex justify-center col-span-1 row-span-2 mt-4 ml-4 pt-10 bg-[#A16A42] text-white">
 		Image with name of Character in big heading
 	</div>
 <!--This is the table to add strengths and weaknesses, just add on to it-->
 	<div class=" flex justify-center items-center col-span-1 mb-4 ml-4 overflow-auto bg-[#A16A42]">
-		<table class="w-[50%] border-2 p-2 bg-white">
+		<table class="w-[75%] border-2 p-2 bg-white">
 			<thead>
 				<tr class="border-1">
 					<th>Strengths</th>
@@ -27,10 +27,12 @@
 	</div>
 <!--This explains the lore, you cann add picture at bottom if you want, up to you. Mostly text though-->
 	<div class=" flex justify-center row-span-3 mt-4 mr-4 mb-4 pt-10 px-[10%] overflow-y-auto bg-[#A16A42] text-white">
-		<Frame class="w-[80%]">
+		<Frame class="w-[80%] text-xl">
 			Consists of Cannoneers, Archers, and Longbow-Archers
 			<br>
 			The Mugarmy is a army which is funded by MugCorp, which have vast numbers of varying levels of skills of mugs, and ceramics alike. 
+			<br>
+			<br>
 			<br>
 			<br>
 			ARCHERS

@@ -6,7 +6,7 @@
 <!--Drawer, copy and past the stuff in the ts script (and the script too if not already done) to put it on other pages-->
  
 <!--nice-->
-<div class="root-grid-box grid w-full gap-x-3 bg-[#EDCFFF]">
+<div class="root-grid-box grid size-full gap-x-3 bg-[#EDCFFF]">
 	<div class="row-start-1 col-span-1 w-auto ml-auto mr-auto rounded-xl bg-[#9013d9] text-center self-center text-white px-10 py-10">
 		<img src={Mugcorp} alt="Mug Corp Logo" class="w-32 h-32">
 	</div>

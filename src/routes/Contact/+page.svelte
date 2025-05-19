@@ -1,4 +1,4 @@
-<div class="flex w-full bg-[#EDCFFF]">
+<div class="flex size-full bg-[#EDCFFF]">
 	<div class=" bg-[#9013d9] m-auto p-10 rounded-xl">
 		<form class="w-full max-w-lg">
 			<div class="-mx-3 mb-6 flex flex-wrap">

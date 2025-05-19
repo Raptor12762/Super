@@ -2,64 +2,69 @@
 @import 'sk-clib/style';
 
 @theme {
-    /* Fonts */
-    --font-judson: Judson, sans-serif;
+	/* Fonts */
+	--font-judson: Judson, sans-serif;
 
-    /* Colors */
-    --color-primary: #9013d9;
+	/* Colors */
+	--color-primary: #9013d9;
 }
 
 @layer base {
+	html,
+	body {
+		width: 100%;
+		height: 100%;
+		margin: 0;
+	}
 
-    html,
-    body {
-        width: 100%;
-        height: 100%;
-        margin: 0;
-    }
-
-    option,
-    span,
-    div,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        font-family: Judson, sans-serif;
-    }
+	option,
+	span,
+	div,
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: Judson, sans-serif;
+	}
 }
 
 @layer components {
-    .animate-forwards {
-        animation-fill-mode: forwards;
-    }
+	.animate-forwards {
+		animation-fill-mode: forwards;
+	}
+
+	.no-scroll {
+		-ms-overflow-style: none; /* Internet Explorer 10+ */
+		scrollbar-width: none; /* Firefox */
+	}
+	.no-scroll::-webkit-scrollbar {
+		display: none; /* Safari and Chrome */
+	}
 }
 
 /* =-=-=-=-= Fonts =-=-=-=-= */
 @font-face {
-    font-family: Judson;
-    font-style: normal;
-    font-weight: normal;
-    font-display: swap;
-    src: url("fonts/Judson/Judson-Regular.ttf") format("truetype");
+	font-family: Judson;
+	font-style: normal;
+	font-weight: normal;
+	font-display: swap;
+	src: url('fonts/Judson/Judson-Regular.ttf') format('truetype');
 }
 
-
 @font-face {
-    font-family: Judson;
-    font-style: normal;
-    font-weight: bold;
-    font-display: swap;
-    src: url("fonts/Judson/Judson-Bold.ttf") format("truetype");
+	font-family: Judson;
+	font-style: normal;
+	font-weight: bold;
+	font-display: swap;
+	src: url('fonts/Judson/Judson-Bold.ttf') format('truetype');
 }
 
-
 @font-face {
-    font-family: Judson;
-    font-style: italic;
-    font-weight: normal;
-    font-display: swap;
-    src: url("fonts/Judson/Judson-Italic.ttfS") format("truetype");
+	font-family: Judson;
+	font-style: italic;
+	font-weight: normal;
+	font-display: swap;
+	src: url('fonts/Judson/Judson-Italic.ttfS') format('truetype');
 }
