@@ -32,7 +32,7 @@
 	</div>
 <!--This explains the lore, you cann add picture at bottom if you want, up to you. Mostly text though-->
 	<div class=" flex justify-center row-span-3 mt-4 mr-4 mb-4 pt-10 px-[10%] overflow-y-auto bg-[#8EBDFF] text-white">
-		<Frame class="w-[80%]">
+		<Frame class="w-[80%] text-xl">
 			Seethru is one of the few glass-ceramic teapots to ever have existed in the world. Seethru’s appearance is also mostly unknown to the public eye, and only rough imagery and sketches were made to estimate some sort of appearance for this teapot. 
 			<br>
 			<br>
