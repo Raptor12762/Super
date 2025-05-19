@@ -43,7 +43,7 @@
 						class="mb-3 block w-full appearance-none rounded border border-gray-200 bg-gray-200 px-4 py-3 leading-tight text-gray-700 focus:border-gray-500 focus:bg-white focus:outline-none"
 						id="grid-email"
 						type="email"
-						placeholder="johndoe@132.gmail"
+						placeholder="johndoe132@gmail.com"
 					/>
 				</div>
 			</div>
