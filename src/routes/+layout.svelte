@@ -20,20 +20,15 @@
 <footer class=" bg-primary w-full shadow-sm">
 	<div class="mx-auto w-full max-w-screen-xl p-4 md:py-8">
 		<div class="sm:flex sm:items-center sm:justify-between">
-			<a
-				href="https://flowbite.com/"
-				class="mb-4 flex items-center space-x-3 sm:mb-0 rtl:space-x-reverse"
-			>
-				<img src={Mugcorp} alt="Mug Corp Logo" class="h-32 w-32" />
-			</a>
+				<img src={Mugcorp} alt="Mug Corp Logo" class="h-35 w-35" />
 			<ul
 				class="mb-6 flex flex-wrap items-center text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400"
 			>
 				<li>
-					<a href="/about/info" class="me-4 text-white hover:underline md:me-6">About</a>
+					<a href="/about/info" class="me-4 text-white hover:underline md:me-6 text-2xl">About</a>
 				</li>
 				<li>
-					<a href="/Contact" class="text-white hover:underline">Contact</a>
+					<a href="/Contact" class="text-white hover:underline text-2xl">Contact</a>
 				</li>
 			</ul>
 		</div>
