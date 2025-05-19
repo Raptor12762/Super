@@ -31,7 +31,6 @@
 				</tr>
 				<tr>
 					<td class="border-1">Self Refill</td>
-					<td class="border-1"></td>
 				</tr>
 			</tbody>
 		</table>
@@ -44,11 +43,13 @@
 			<br>
 			<br>
 			Ability 1  – Shard Throw
+			<br>
 			Shattershot is able to throw shards, as depicted on the left, toward anybody she deems threatening toward herself or other mugs around her. 
 			These shards are small in size, and appear to be from another “world”.
 			<br>
 			<br>
 			Ability 2  – Shard Repair
+			<br>
 			Shattershot can repair herself in dire need if needed to, with the shards she supplies with herself constantly. 
 			Although it may not immediately repair any damages she sustains, it is enough to push through any hardships at the moment. 
 			<br>
