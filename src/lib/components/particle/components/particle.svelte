@@ -92,8 +92,6 @@
 	onMount(() => {
 		if (!particleRef) return;
 
-		console.log('Particle position prop:', position);
-
 		const { offsetWidth, offsetHeight } = particleRef.parentElement ?? {};
 		if (!offsetWidth || !offsetHeight) return;
 
