@@ -1,0 +1,37 @@
+<script lang="ts">
+	import { Portrait } from "@lib/components";
+	import { Frame } from "sk-clib";
+</script>
+
+<!--Image with header fro character name, make sure it's centered to the box-->
+<div class="grid w-full grid-flow-col grid-rows-3 gap-4 bg-[#99c0ff]">
+	<div class=" flex justify-center col-span-1 row-span-2 mt-4 ml-4 pt-10 bg-[#4384EB] text-white">
+		Image with name of Character in big heading
+	</div>
+<!--This is the table to add strengths and weaknesses, just add on to it-->
+	<div class=" flex justify-center items-center col-span-1 mb-4 ml-4 overflow-auto bg-[#4384EB]">
+		<table class="w-[50%] border-2 p-2 bg-white">
+			<thead>
+				<tr class="border-1">
+					<th>Strengths</th>
+					<th>Weaknesses</th>
+				</tr>
+			</thead>
+			<tbody class="text-center">
+				<tr>
+					<td class="border-1">Frost Flame</td>
+					<td class="border-1">Fragile</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+<!--This explains the lore, you cann add picture at bottom if you want, up to you. Mostly text though-->
+	<div class=" flex justify-center row-span-3 mt-4 mr-4 mb-4 pt-10 px-[10%] overflow-y-auto bg-[#4384EB] text-white">
+		<Frame class="w-[80%]">
+            Smart Pots are probably the most boring group out of the Villains of the world, as they usually provide either funding or planning for various schemes or heists. They themselves do not have any unique abilities, outside of their sheer speed and their smart minds. There are tens, if not thousands of Smartpots roaming around in dark quarters, studying various buildings and people for their weaknesses, their plans, essentially everything about everyone around the world.
+            <br>
+            <br>
+            Smartpots are oftentimes seen in glasses and graduation caps, to promote their “mind” abilities and techniques. Also, for seemingly no reason, their knowledge ties into how blue their body looks. The bluest of Smartpots are the masterminds of most operations, while light-blue Smart Pots.
+        </Frame>
+	</div>
+</div>

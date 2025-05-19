@@ -12,7 +12,7 @@
 		<Portrait.Shattershot src={ShattershotPortrait} class="h-[50vh]" name="Shattershot"/>
 	</div>
 <!--This is the table to add strengths and weaknesses, just add on to it-->
-	<div class=" flex justify-center items-center col-span-1 mb-4 ml-4 bg-[#9013d9]">
+	<div class=" flex justify-center items-center col-span-1 mb-4 ml-4 overflow-auto bg-[#9013d9]">
 		<table class="w-[75%] border-2 p-2 bg-white">
 			<thead>
 				<tr class="border-1">

@@ -6,12 +6,12 @@
 </script>
 
 <!--Image with header fro character name, make sure it's centered to the box-->
-<div class="grid w-full grid-flow-col grid-rows-3 gap-4 bg-[#EBBB98]">
-	<div class=" flex justify-center col-span-1 row-span-2 mt-4 ml-4 pt-10 bg-[#A16A42] text-white overflow-hidden">
+<div class="grid w-full grid-flow-col grid-rows-3 gap-4 bg-[#ECF4FF]">
+	<div class=" flex justify-center col-span-1 row-span-2 mt-4 ml-4 pt-10 bg-[#8EBDFF] text-white overflow-hidden">
 		<Portrait.Seethru src={sethruStandard} class="h-[50vh]" name="Seethru"/>
 	</div>
 <!--This is the table to add strengths and weaknesses, just add on to it-->
-	<div class=" flex justify-center items-center col-span-1 mb-4 ml-4 bg-[#A16A42]">
+	<div class=" flex justify-center items-center col-span-1 mb-4 ml-4 overflow-auto bg-[#8EBDFF]">
 		<table class="w-[50%] border-2 p-2 bg-white">
 			<thead>
 				<tr class="border-1">
@@ -28,7 +28,7 @@
 		</table>
 	</div>
 <!--This explains the lore, you cann add picture at bottom if you want, up to you. Mostly text though-->
-	<div class=" flex justify-center row-span-3 mt-4 mr-4 mb-4 pt-10 bg-[#A16A42] text-white">
+	<div class=" flex justify-center row-span-3 mt-4 mr-4 mb-4 pt-10 px-[10%] overflow-y-auto bg-[#8EBDFF] text-white">
 		<Frame class="w-[80%]">
 			Seethru is one of the few glass-ceramic teapots to ever have existed in the world. Seethru’s appearance is also mostly unknown to the public eye, and only rough imagery and sketches were made to estimate some sort of appearance for this teapot. 
 			<br>
