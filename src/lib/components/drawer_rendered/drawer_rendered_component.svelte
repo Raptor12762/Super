@@ -113,6 +113,12 @@
 					{/snippet}
 				</Drawer.Item>
 
+				<Drawer.Item href="/characters/Villain/Smartpot">
+					{#snippet slot_text()}
+						<span class="text-inherit">Smart Pots</span>
+					{/snippet}
+				</Drawer.Item>
+
 				<Drawer.Item href="/characters/Villain/Stonepot">
 					{#snippet slot_text()}
 						<span class="text-inherit">Stonepot</span>
