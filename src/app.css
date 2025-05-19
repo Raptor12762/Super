@@ -2,14 +2,32 @@
 @import 'sk-clib/style';
 
 @theme {
+    /* Fonts */
+    --font-judson: Judson, sans-serif;
+
+    /* Colors */
     --color-primary: #9013d9;
 }
 
 @layer base {
-    html, body {
+
+    html,
+    body {
         width: 100%;
         height: 100%;
         margin: 0;
+    }
+
+    option,
+    span,
+    div,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: Judson, sans-serif;
     }
 }
 
@@ -17,4 +35,31 @@
     .animate-forwards {
         animation-fill-mode: forwards;
     }
+}
+
+/* =-=-=-=-= Fonts =-=-=-=-= */
+@font-face {
+    font-family: Judson;
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url("fonts/Judson/Judson-Regular.ttf") format("truetype");
+}
+
+
+@font-face {
+    font-family: Judson;
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+    src: url("fonts/Judson/Judson-Bold.ttf") format("truetype");
+}
+
+
+@font-face {
+    font-family: Judson;
+    font-style: italic;
+    font-weight: normal;
+    font-display: swap;
+    src: url("fonts/Judson/Judson-Italic.ttfS") format("truetype");
 }

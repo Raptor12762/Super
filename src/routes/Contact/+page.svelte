@@ -43,7 +43,7 @@
 						class="mb-3 block w-full appearance-none rounded border border-gray-200 bg-gray-200 px-4 py-3 leading-tight text-gray-700 focus:border-gray-500 focus:bg-white focus:outline-none"
 						id="grid-email"
 						type="email"
-						placeholder="johndoe@132.gmail"
+						placeholder="johndoe132@gmail.com"
 					/>
 				</div>
 			</div>
@@ -92,6 +92,38 @@
                             <option>Kansas</option>
                             <option>Kentucky</option>
                             <option>Louisiana</option>
+							<option>Maine</option>
+							<option>Maryland</option>
+							<option>Massachusetts</option>
+							<option>Michigan</option>
+							<option>Minnesota</option>
+							<option>Mississippi</option>
+							<option>Missouri</option>
+							<option>Montana</option>
+							<option>Nebraska</option>
+							<option>Nevada</option>
+							<option>New Hampshire</option>
+							<option>New Jersey</option>
+							<option>New Mexico</option>
+							<option>New York</option>
+							<option>North Carolina</option>
+							<option>North Dakota</option>
+							<option>Ohio</option>
+							<option>Oklahoma</option>
+							<option>Oregon</option>
+							<option>Pennsylvania</option>
+							<option>Rhode Island</option>
+							<option>South Carolina</option>
+							<option>South Dakota</option>
+							<option>Tennessee</option>
+							<option>Texas</option>
+							<option>Utah</option>
+							<option>Vermont</option>
+							<option>Virginia</option>
+							<option>Washington</option>
+							<option>West Virginia</option>
+							<option>Wisconsin</option>
+							<option>Wyoming</option>
 						</select>
 						<div
 							class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700"
