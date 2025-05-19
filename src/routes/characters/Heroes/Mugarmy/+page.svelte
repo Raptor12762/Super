@@ -26,7 +26,7 @@
 		</table>
 	</div>
 <!--This explains the lore, you cann add picture at bottom if you want, up to you. Mostly text though-->
-	<div class=" flex justify-center row-span-3 mt-4 mr-4 mb-4 pt-10 overflow-y-auto bg-[#A16A42] text-white">
+	<div class=" flex justify-center row-span-3 mt-4 mr-4 mb-4 pt-10 px-[10%] overflow-y-auto bg-[#A16A42] text-white">
 		<Frame class="w-[80%]">
 			Consists of Cannoneers, Archers, and Longbow-Archers
 			<br>
