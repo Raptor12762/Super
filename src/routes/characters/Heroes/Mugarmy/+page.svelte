@@ -10,11 +10,11 @@
 	</div>
 <!--This is the table to add strengths and weaknesses, just add on to it-->
 	<div class=" flex justify-center items-center col-span-1 mb-4 ml-4 overflow-auto bg-[#A16A42]">
-		<table class="w-[75%] border-2 p-2 bg-white">
+		<table class="w-[75%] border-2 p-2 bg-[#EBBB98]">
 			<thead>
 				<tr class="border-1">
-					<th>Strengths</th>
-					<th>Weaknesses</th>
+					<th class="border-1">Strengths</th>
+					<th class="border-1">Weaknesses</th>
 				</tr>
 			</thead>
 			<tbody class="text-center">

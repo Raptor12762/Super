@@ -15,8 +15,8 @@
 		<table class="w-[75%] border-2 p-2 bg-[#82c7ff]">
 			<thead>
 				<tr class="border-1">
-					<th>Strengths</th>
-					<th>Weaknesses</th>
+					<th class="border-1">Strengths</th>
+					<th class="border-1">Weaknesses</th>
 				</tr>
 			</thead>
 			<tbody class="text-center">
@@ -44,7 +44,7 @@
 			<br>
 			<br>
 			<br>
-			<h2>Ability 1  – Flame Imbue</h2>
+			Ability 1  – Flame Imbue
 			<br>
 			Frostflame can imbue any object he’s holding with his frostflame, enhancing whatever he may be holding at the time. This causes the item he’s holding to be on fire, similar to the flame coming from his head. 
 			<br>

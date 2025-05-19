@@ -13,8 +13,8 @@
 		<table class="w-[75%] border-2 p-2 bg-[#616161]">
 			<thead>
 				<tr class="border-1">
-					<th>Strengths</th>
-					<th>Weaknesses</th>
+					<th class="border-1">Strengths</th>
+					<th class="border-1">Weaknesses</th>
 				</tr>
 			</thead>
 			<tbody class="text-center">
