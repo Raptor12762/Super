@@ -3,19 +3,12 @@
 
 	import { Portrait } from "@lib/components";
 	import { Frame } from "sk-clib";
-	import {} from "@tsparticles/svelte"
 </script>
 
 <!--Image with header fro character name, make sure it's centered to the box-->
-<<<<<<< HEAD
 <div class="grid w-full grid-flow-col grid-rows-3 gap-4 bg-[#99c0ff]">
 	<div class=" flex justify-center col-span-1 row-span-2 mt-4 ml-4 overflow-hidden pt-10 bg-[#4384EB] text-white">
 		<Portrait.Smartpot src={SmartpotPortrait} class="h-[50vh]" name="Smartpot"/>
-=======
-<div class="grid size-full grid-flow-col grid-rows-3 gap-4 bg-[#99c0ff]">
-	<div class=" flex justify-center col-span-1 row-span-2 mt-4 ml-4 pt-10 bg-[#4384EB] text-white">
-		Image with name of Character in big heading
->>>>>>> 27cc0277d2e6357c47d0892025ee3a4ef1ef622e
 	</div>
 <!--This is the table to add strengths and weaknesses, just add on to it-->
 	<div class=" flex justify-center items-center col-span-1 mb-4 ml-4 overflow-auto bg-[#4384EB]">
