@@ -21,8 +21,11 @@
 			</thead>
 			<tbody class="text-center">
 				<tr>
-					<td class="border-1">Frost Flame</td>
-					<td class="border-1">Fragile</td>
+					<td class="border-1">Invisible</td>
+					<td class="border-1">Immediate One Hit</td>
+				</tr>
+				<tr>
+					<td class="border-1">Manipulative</td>
 				</tr>
 			</tbody>
 		</table>
