@@ -4,7 +4,7 @@
 </script>
 
 <!--Image with header fro character name, make sure it's centered to the box-->
-<div class="grid w-full grid-flow-col grid-rows-3 gap-4 bg-[#99c0ff]">
+<div class="grid size-full grid-flow-col grid-rows-3 gap-4 bg-[#99c0ff]">
 	<div class=" flex justify-center col-span-1 row-span-2 mt-4 ml-4 pt-10 bg-[#4384EB] text-white">
 		Image with name of Character in big heading
 	</div>

@@ -6,7 +6,7 @@
 </script>
 
 <!--Image with header fro character name, make sure it's centered to the box-->
-<div class="grid w-full grid-flow-col grid-rows-3 gap-4 bg-[#EDCFFF]">
+<div class="grid size-full grid-flow-col grid-rows-3 gap-4 bg-[#EDCFFF]">
 	<div class=" flex justify-center col-span-1 row-span-2 mt-4 ml-4 pt-10 overflow-hidden bg-[#9013d9] text-white">
 		
 		<Portrait.Shattershot src={ShattershotPortrait} class="h-[50vh]" name="Shattershot"/>

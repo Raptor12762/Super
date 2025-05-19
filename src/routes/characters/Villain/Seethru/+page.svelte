@@ -6,7 +6,7 @@
 </script>
 
 <!--Image with header fro character name, make sure it's centered to the box-->
-<div class="grid w-full grid-flow-col grid-rows-3 gap-4 bg-[#ECF4FF]">
+<div class="grid size-full grid-flow-col grid-rows-3 gap-4 bg-[#ECF4FF]">
 	<div class=" flex justify-center col-span-1 row-span-2 mt-4 ml-4 pt-10 bg-[#8EBDFF] text-white overflow-hidden">
 		<Portrait.Seethru src={sethruStandard} class="h-[50vh]" name="Seethru"/>
 	</div>
