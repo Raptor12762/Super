@@ -1,15 +1,17 @@
 <script lang="ts">
+	import FrostPortrait from "@assets/frostflame.png"
+
 	import { Portrait } from "@lib/components";
 	import { Frame } from "sk-clib";
 </script>
 
 <!--Image with header fro character name, make sure it's centered to the box-->
 <div class="grid w-full grid-flow-col grid-rows-3 gap-4 bg-[#82c7ff]">
-	<div class=" flex justify-center col-span-1 row-span-2 mt-4 ml-4 pt-10 bg-[#006AC0] text-white">
-		Image with name of Character in big heading
+	<div class=" flex justify-center col-span-1 row-span-2 mt-4 ml-4 pt-10 overflow-hidden bg-[#006AC0] text-white">
+		<Portrait.FrostFlame src={FrostPortrait} class="h-[50vh]" name="FrostFlame"/>
 	</div>
 <!--This is the table to add strengths and weaknesses, just add on to it-->
-	<div class=" flex justify-center items-center col-span-1 mb-4 ml-4 bg-[#006AC0]">
+	<div class=" flex justify-center items-center col-span-1 mb-4 ml-4 bg-[#006AC0] w-[21.5vw]">
 		<table class="w-[50%] border-2 p-2 bg-white">
 			<thead>
 				<tr class="border-1">
