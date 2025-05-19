@@ -13,7 +13,7 @@
 						class="mb-3 block w-full appearance-none rounded border border-gray-200 bg-gray-200 px-4 py-3 leading-tight text-gray-700 focus:bg-white focus:outline-none"
 						id="grid-first-name"
 						type="text"
-						placeholder="Jane"
+						placeholder="John"
 					/>
 				</div>
 				<div class="w-full px-3 md:w-1/2">
@@ -59,7 +59,7 @@
 						class="block w-full appearance-none rounded border border-gray-200 bg-gray-200 px-4 py-3 leading-tight text-gray-700 focus:border-gray-500 focus:bg-white focus:outline-none"
 						id="grid-city"
 						type="text"
-						placeholder="Richmond"
+						placeholder="Montgomery"
 					/>
 				</div>
 				<div class="mb-6 w-full px-3 md:mb-0 md:w-1/3">
