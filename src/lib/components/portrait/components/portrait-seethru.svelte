@@ -5,7 +5,7 @@
 	import { Frame, Header } from 'sk-clib';
 	import { fade, fly } from 'svelte/transition';
 	import { onMount } from 'svelte';
-	import frostFlameFlame from '@assets/fireWide.png';
+	import characterAltImage from '@assets/seethruFade.png';
 
 	let {
 		class: className,
@@ -24,15 +24,20 @@
 		const config = { duration: 300, fill: 'forwards', easing: 'ease-in-out' };
 
 		// Character
-		character_ref?.animate([{ transform: 'translateY(-80%)' }, {}], config as any);
-
-		fire_ref?.animate([{ opacity: '0' }, { opacity: '0.6' }], {
-			duration: 100,
+		
+		character_ref?.animate([{ opacity: '0' }, { opacity: '1' }], {
+			duration: 800,
 			fill: 'forwards',
 			easing: 'ease-in-out'
 		});
 
-		fire_ref?.animate([{ transform: 'scale(0.1)' }, { transform: 'scale(1.2)' }], {
+		character_alt?.animate([{ opacity: '0.6' }, { opacity: '0' }], {
+			duration: 2000,
+			fill: 'forwards',
+			easing: 'ease-in-out'
+		});
+
+		character_alt?.animate([{ transform: 'scale(2)' }, { transform: 'scale(1.6)' }], {
 			duration: 1600,
 			fill: 'forwards',
 			easing: 'ease-in-out'
@@ -42,7 +47,7 @@
 	});
 
 	let character_ref: HTMLDivElement | undefined = $state(undefined);
-	let fire_ref: HTMLElement | undefined = $state(undefined);
+	let character_alt: HTMLElement | undefined = $state(undefined);
 </script>
 
 <Frame class="relative size-full">
@@ -52,24 +57,12 @@
 
 		<!-- wide flame -->
 		 <img
-			bind:this={fire_ref}
-			src={frostFlameFlame}
+			bind:this={character_alt}
+			src={characterAltImage}
 			alt="fire"
-			class={cn('absolute top-50 left-4 z-12 size-[20vw] duration-400 origin-bottom')}
+			class={cn('absolute top-[9%] left-[47%] transform -translate-x-1/2 z-12 w-2000 duration-400 ')}
 		/>
-		<!--
-		<img
-			bind:this={explosion_ref}
-			src={ShatterExplosion}
-			alt="explosion"
-			class={cn('absolute top-5 -left-60 z-1 size-[20vw] duration-400')}
-		/>
-		<img
-			bind:this={explosion2_ref}
-			src={ShatterExplosion}
-			alt="explosion"
-			class={cn('absolute top-40 -left-50 z-1 size-[20vw] duration-400')}
-		/>-->
+	
 	</div>
 </Frame>
 

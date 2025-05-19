@@ -57,19 +57,7 @@
 			alt="fire"
 			class={cn('absolute top-50 left-4 z-12 size-[20vw] duration-400 origin-bottom')}
 		/>
-		<!--
-		<img
-			bind:this={explosion_ref}
-			src={ShatterExplosion}
-			alt="explosion"
-			class={cn('absolute top-5 -left-60 z-1 size-[20vw] duration-400')}
-		/>
-		<img
-			bind:this={explosion2_ref}
-			src={ShatterExplosion}
-			alt="explosion"
-			class={cn('absolute top-40 -left-50 z-1 size-[20vw] duration-400')}
-		/>-->
+	
 	</div>
 </Frame>
 

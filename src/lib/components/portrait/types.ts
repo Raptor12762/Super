@@ -17,3 +17,12 @@ export type tPortraitShattershotProps = HTMLAttributes<HTMLDivElement> & {
     
     // Extra Props Here:
 };
+
+export type tPortraitSeethruProps = HTMLAttributes<HTMLDivElement> & {
+    // Classes:
+
+    // --- Default Classes:
+    seethruClass?: ClassValue,
+    
+    // Extra Props Here:
+};
