@@ -36,10 +36,12 @@
 		</table>
 	</div>
 <!--This explains the lore, you cann add picture at bottom if you want, up to you. Mostly text though-->
-	<div class=" flex justify-center row-span-3 mt-4 mr-4 mb-4 pt-5 px-[10%] overflow-y-auto bg-[#9013d9] text-white">
+	<div class=" flex justify-center row-span-3 mt-4 mr-4 mb-4 pt-5 px-[10%] overflow-y-auto bg-[#9013d9] text-white text-xl">
 	
 			One of the most well known heroes of the world. Shattershot often uses her shards for mobility and general offense, as they explode and launch things around their impact zone. 
 			Shattershot is identifiable by her purple color scheme, and very noticeable - foamish hair seen at the front of her mug.
+			<br>
+			<br>
 			<br>
 			<br>
 			Ability 1  – Shard Throw
@@ -52,6 +54,8 @@
 			<br>
 			Shattershot can repair herself in dire need if needed to, with the shards she supplies with herself constantly. 
 			Although it may not immediately repair any damages she sustains, it is enough to push through any hardships at the moment. 
+			<br>
+			<br>
 			<br>
 			<br>
 			Shattershot’s shards come from a reality unknown to most mugs in this universe. 
