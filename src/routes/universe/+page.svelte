@@ -7,7 +7,7 @@
 <!--nice-->
 <div class="root-grid-box grid w-full gap-x-3 bg-[#EDCFFF]">
 	<div class="row-start-1 col-span-1 w-auto ml-auto mr-auto rounded-xl bg-[#9013d9] text-center self-center text-white px-5 py-5">
-		
+		<img src="" alt="Mug Corp Logo">
 	</div>
 
 	<div class="row-start-2 col-span-1 w-[75%] ml-auto mr-auto rounded-xl bg-[#9013d9] text-center self-center text-white px-5 py-5">
