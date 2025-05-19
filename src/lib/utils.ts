@@ -91,7 +91,7 @@ export class cn_a {
 	}
 }
 
-export function expand(node: HTMLElement, params: any, { duration = 300}) {
+export function expand(node: HTMLElement, params: any, { duration = 300 }) {
 	const height = node.scrollHeight;
 
 	return {
@@ -101,11 +101,11 @@ export function expand(node: HTMLElement, params: any, { duration = 300}) {
 	};
 }
 
-export function explosion(node: HTMLElement, params: any, { duration = 300}) {
+export function explosion(node: HTMLElement, params: any, { duration = 300 }) {
 	return {
 		duration,
 		easing: params.easing || cubicOut,
-		css: (t: number) => `opacity: ${t*2}; transform: rotate(${t*90}deg);`
+		css: (t: number) => `opacity: ${t * 2}; transform: rotate(${t * 90}deg);`
 	};
 }
 
@@ -120,6 +120,20 @@ export function reference_package_to_form(package_name: string, location: string
 	if (location !== undefined) {
 		buff += `&location=${location}`
 	}
-	window.location.href=`${base}/form${buff}`
+	window.location.href = `${base}/form${buff}`
 	return buff
+}
+
+
+export const min_max = (min: number, max: number) => {
+	return Math.random() * (max - min) + min; // Literally stolen from js mdn reference :
+}
+
+/**
+ * @param min Min Number
+ * @param max Max Number
+ * @returns Number between these two with a bias
+ */
+export const biased_min_max = (min: number, max: number, bias: number = 2) => {
+	return Math.floor(min + Math.pow(Math.random(), bias) * (max - min))
 }
