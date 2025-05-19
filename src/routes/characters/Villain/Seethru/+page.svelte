@@ -12,7 +12,7 @@
 	</div>
 <!--This is the table to add strengths and weaknesses, just add on to it-->
 	<div class=" flex justify-center items-center col-span-1 mb-4 ml-4 overflow-auto bg-[#8EBDFF]">
-		<table class="w-[50%] border-2 p-2 bg-white">
+		<table class="w-[50%] border-2 p-2 bg-[#ECF4FF]">
 			<thead>
 				<tr class="border-1">
 					<th>Strengths</th>

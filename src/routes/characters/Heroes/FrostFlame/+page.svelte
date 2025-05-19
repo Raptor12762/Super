@@ -11,8 +11,8 @@
 		<Portrait.FrostFlame src={FrostPortrait} class="h-[50vh]" name="FrostFlame"/>
 	</div>
 <!--This is the table to add strengths and weaknesses, just add on to it-->
-	<div class=" flex justify-center items-center col-span-1 mb-4 ml-4 bg-[#006AC0] w-[21.5vw]">
-		<table class="w-[50%] border-2 p-2 bg-white">
+	<div class=" flex justify-center items-center col-span-1 mb-4 ml-4 overflow-auto bg-[#006AC0] w-[21.5vw]">
+		<table class="w-[50%] border-2 p-2 bg-[#82c7ff]">
 			<thead>
 				<tr class="border-1">
 					<th>Strengths</th>
@@ -37,12 +37,12 @@
 		</table>
 	</div>
 <!--This explains the lore, you cann add picture at bottom if you want, up to you. Mostly text though-->
-	<div class=" flex justify-center row-span-3 mt-4 mr-4 mb-4 pt-10 bg-[#006AC0] text-white">
-		<Frame class="w-[80%]">
+	<div class=" flex justify-center row-span-3 mt-4 mr-4 mb-4 pt-10 px-[10%] overflow-y-auto bg-[#006AC0] text-white">
+		<Frame class="w-[80%] text-xl">
 			Frostflame is more of a unique hero compared to the rest. Lacking most features from other mugs, such as a handle and some general liquid inside of the mug, it is unknown how frostflame is currently standing without any sustenance inside of his mug. 
 			<br>
 			<br>
-			Ability 1  – Flame Imbue
+			<h2>Ability 1  – Flame Imbue</h2>
 			<br>
 			Frostflame can imbue any object he’s holding with his frostflame, enhancing whatever he may be holding at the time. This causes the item he’s holding to be on fire, similar to the flame coming from his head. 
 			<br>
