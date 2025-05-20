@@ -11,6 +11,7 @@
 	<div class="grid h-fit w-full">
 		<div class="row-start-1 col-span-1 w-auto ml-auto mr-auto rounded-xl bg-[#9013d9] text-center self-center text-white px-2 py-2">
 			<img src={Mugcorp} alt="Mug Corp Logo" class="w-75 h-75">
+			Defending the Righteous, and what’s theirs.
 		</div>
 	</div>
 
