@@ -34,7 +34,7 @@
 		</div>
 		<hr class="my-6 border-gray-200 sm:mx-auto lg:my-8 dark:border-gray-700" />
 		<span class="block text-sm text-white sm:text-center"
-			>© 2025 <a href="https://flowbite.com/" class="hover:underline">Mug Corp™</a>. All Rights
+			>© 2025 <a href="/" class="hover:underline">Mug Corp™</a>. All Rights
 			Reserved.</span
 		>
 	</div>
