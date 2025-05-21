@@ -22,6 +22,7 @@
         <br>
         <br>
         <!--List your contributions here. Edit this, Eldin.-->
-        I made all the art shown in this project. I also did the Javascript for the project.
+        I was the one to do all of the site animations, art, and gennerally all of the design stuff for the webstie!! Most of the stuff was 
+        based on my own OCs, so it was relatively simple to try and port over most of the stuff here. 
 	</div>
 </div>

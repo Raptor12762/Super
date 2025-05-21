@@ -43,9 +43,6 @@
 			}
 		);
 
-	
-
-
 		// blueprint 3
 		blueprint_3?.animate([{ opacity: '0' }, { opacity: '1' }], {
 			duration: 3500,
@@ -72,7 +69,7 @@
 <Frame class="relative size-full">
 	<div class="z-1 flex h-full flex-col items-center">
 		<img bind:this={character_ref} {...rest} class={portraitCls} />
-		<Header xxl>{name}</Header>
+		<Header xxl class={'z-5'} style="transform: translateY(45px);">{name}</Header>
 
 		<!--shatter explosions -->
 		<img
@@ -85,7 +82,7 @@
 			bind:this={blueprint_3}
 			src={blueprint3}
 			alt="another blueprint"
-			class={cn('absolute top-40 -left-50 z-3 aspect-0/2  duration-400')}
+			class={cn('absolute top-35 -left-50 z-3 aspect-0/2  duration-400')}
 		/>
 	</div>
 </Frame>
