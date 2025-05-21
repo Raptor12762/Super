@@ -25,10 +25,10 @@
 				class="mb-6 flex flex-wrap items-center text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400"
 			>
 				<li>
-					<a href="/about/info" class="me-4 text-white hover:underline md:me-6 text-2xl">About</a>
+					<a href="/Super/about/info" class="me-4 text-white hover:underline md:me-6 text-2xl">About</a>
 				</li>
 				<li>
-					<a href="/Contact" class="text-white hover:underline text-2xl">Contact</a>
+					<a href="/Super/Contact" class="text-white hover:underline text-2xl">Contact</a>
 				</li>
 			</ul>
 		</div>
