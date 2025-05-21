@@ -1,5 +1,4 @@
 <script lang="ts">
-
 	// --- Components ---
 	import { Drawer } from '@lib/components';
 
@@ -17,12 +16,10 @@
 	import FluentEmojiHighContrastPersonSupervillain from '~icons/fluent-emoji-high-contrast/person-supervillain';
 
 	// import teapotIcon from '~icons/'
-	
-	import MugIcon from "~icons/my-images/mugicon"
-	import TeapotIcon from "~icons/my-images/teapoticon"
 
+	import MugIcon from '~icons/my-images/mugicon';
+	import TeapotIcon from '~icons/my-images/teapoticon';
 </script>
-
 
 <Drawer.Root active={true}>
 	<Drawer.Menu>
@@ -35,53 +32,45 @@
 
 		<Drawer.Dropdown>
 			{#snippet slot_root($dropdown_show$)}
-			<Drawer.Item root>
-				<MaterialSymbolsPerson class="size-6 shrink-0"/>
-				{#snippet slot_text()}
-					<span class="text-inherit">Characters</span>
-				{/snippet}
-				{#snippet slot_right()}
-					<IconCaret
-						class={cn(
-						'shrink-0 rotate-180 animate ease-out',
-						$dropdown_show$ && 'rotate-270'
-						)}
-					/>
-				{/snippet}
-			</Drawer.Item>
+				<Drawer.Item root>
+					<MaterialSymbolsPerson class="size-6 shrink-0" />
+					{#snippet slot_text()}
+						<span class="text-inherit">Characters</span>
+					{/snippet}
+					{#snippet slot_right()}
+						<IconCaret
+							class={cn('animate shrink-0 rotate-180 ease-out', $dropdown_show$ && 'rotate-270')}
+						/>
+					{/snippet}
+				</Drawer.Item>
 			{/snippet}
 
 			<Drawer.Dropdown>
 				{#snippet slot_root($dropdown_show$)}
-				<Drawer.Item root>
-					<div class="pl-2 ..."></div>
-					<MugIcon class="size-9 shrink-0"/>
+					<Drawer.Item root>
+						<div class="pl-2 ..."></div>
+						<MugIcon class="size-9 shrink-0" />
+						{#snippet slot_text()}
+							<span class="text-inherit">Mugs</span>
+						{/snippet}
+						{#snippet slot_right()}
+							<IconCaret
+								class={cn('animate shrink-0 rotate-180 ease-out', $dropdown_show$ && 'rotate-270')}
+							/>
+						{/snippet}
+					</Drawer.Item>
+				{/snippet}
+				<Drawer.Item href="/characters/Heroes/Shattershot">
 					{#snippet slot_text()}
-						<span class="text-inherit">Mugs</span>
-					{/snippet}
-					{#snippet slot_right()}
-						<IconCaret
-							class={cn(
-							'shrink-0 rotate-180 animate ease-out',
-							$dropdown_show$ && 'rotate-270'
-						)}
-						/>
+						<span class="text-inherit">Shattershot</span>
 					{/snippet}
 				</Drawer.Item>
-				{/snippet}
-
 				<Drawer.Item href="/characters/Heroes/FrostFlame">
 					{#snippet slot_text()}
 						<span class="text-inherit">Frost Flame</span>
 					{/snippet}
 				</Drawer.Item>
 
-				<Drawer.Item href="/characters/Heroes/Shattershot">
-					{#snippet slot_text()}
-						<span class="text-inherit">Shattershot</span>
-					{/snippet}
-				</Drawer.Item>
-				
 				<Drawer.Item href="/characters/Heroes/Mugarmy">
 					{#snippet slot_text()}
 						<span class="text-inherit">The Mug-Army</span>
@@ -90,21 +79,18 @@
 			</Drawer.Dropdown>
 			<Drawer.Dropdown>
 				{#snippet slot_root($dropdown_show$)}
-				<Drawer.Item root>
-					<div class="pl-2 ..."></div>
-					<TeapotIcon class="size-9 shrink-0"/>
-					{#snippet slot_text()}
-						<span class="text-inherit">Teapots</span>
-					{/snippet}
-					{#snippet slot_right()}
-						<IconCaret
-							class={cn(
-							'shrink-0 rotate-180 animate ease-out',
-							$dropdown_show$ && 'rotate-270'
-						)}
-						/>
-					{/snippet}
-				</Drawer.Item>
+					<Drawer.Item root>
+						<div class="pl-2 ..."></div>
+						<TeapotIcon class="size-9 shrink-0" />
+						{#snippet slot_text()}
+							<span class="text-inherit">Teapots</span>
+						{/snippet}
+						{#snippet slot_right()}
+							<IconCaret
+								class={cn('animate shrink-0 rotate-180 ease-out', $dropdown_show$ && 'rotate-270')}
+							/>
+						{/snippet}
+					</Drawer.Item>
 				{/snippet}
 
 				<Drawer.Item href="/characters/Villain/Seethru">
@@ -126,22 +112,21 @@
 				</Drawer.Item>
 			</Drawer.Dropdown>
 		</Drawer.Dropdown>
-		
 
 		<Drawer.Item href="/universe">
-			<GameIconsGalaxy class="size-6 shrink-0"/>
+			<GameIconsGalaxy class="size-6 shrink-0" />
 			{#snippet slot_text()}
 				<span class="text-inherit">Universe</span>
 			{/snippet}
 		</Drawer.Item>
 
 		<Drawer.Item href="/about/team">
-			<ElGroup class="size-6 shrink-0"/>
-					{#snippet slot_text()}
-						<span class="text-inherit">Team</span>
-					{/snippet}
+			<ElGroup class="size-6 shrink-0" />
+			{#snippet slot_text()}
+				<span class="text-inherit">Team</span>
+			{/snippet}
 		</Drawer.Item>
-		
+
 		<Drawer.Item href="/about/info">
 			<RiInfoI class="size-6 shrink-0" />
 			{#snippet slot_text()}
