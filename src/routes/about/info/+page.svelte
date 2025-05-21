@@ -23,8 +23,7 @@
     <!--Early wireframe of our site, have image, maybe a little bit of text to give context-->
     <div class="row-start-1 col-span-1 w-[75%] ml-auto mr-auto rounded-xl bg-[#9013d9] text-center self-center text-white px-10 py-10">
         <img src={wire} alt="Wireframe" class="w-100">
-        We used Tailwind to style our site. Tailwind is a CSS framework that provides a collection of pre-designed classes.
-        It allows to design pages quicker and easier without having to manually deal with CSS sheets.
+        This was our very first rendition of our page. As you can tell, some stuff have changed
 	</div>
     <!--Image of our flowchart, it's kind of big so if possible I would like to make the image link to the actual flowchart so people could view it better-->
     <div class="row-start-2 col-span-1 w-[75%] ml-auto mr-auto rounded-xl bg-[#9013d9] text-center self-center text-white px-10 py-10">
