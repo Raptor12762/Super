@@ -5,6 +5,7 @@
         <br>
         <br>
         <!--Input your contributions here-->
+        I pushed the files incorperating Svelte and Tailwind. I worked a lot with the drawer and put the images on the front page. I also managed the Github page.
 	</div>
 
     <div class="row-start-2 col-span-1 w-[75%] ml-auto mr-auto rounded-xl bg-[#9013d9] text-center self-center text-white text-xl px-6 py-6">
@@ -20,6 +21,7 @@
 		<h1 class="text-2xl font-bold">Eldin: Main Designer</h1>
         <br>
         <br>
-        <!--List your contributions here-->
+        <!--List your contributions here. Edit this, Eldin.-->
+        I made all the art shown in this project. I also did the Javascript for the project.
 	</div>
 </div>

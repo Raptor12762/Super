@@ -11,7 +11,7 @@
 	let {
 		children,
 		class: className,
-		drawerClass = $bindable(''),
+		drawerClass = $bindable('border-r-0 border-none'),
 	}: Props = $props();
 
 	// Setup Drawer's class
