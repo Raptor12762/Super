@@ -3,6 +3,7 @@
 
 	import { Portrait } from "@lib/components";
 	import { Frame } from "sk-clib";
+	
 </script>
 
 <!--Image with header fro character name, make sure it's centered to the box-->

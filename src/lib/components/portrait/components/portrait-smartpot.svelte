@@ -6,6 +6,7 @@
 	import { fade, fly } from 'svelte/transition';
 	import { onMount } from 'svelte';
 	import { PaperPs } from '../..';
+	import { Particle } from '@root/lib/components';
 
 
 	let {
@@ -28,16 +29,33 @@
 		character_ref?.animate([{ transform: 'translateX(-80%)' }, {}], config as any);
 	});
 
+	
+
 	let character_ref: HTMLDivElement | undefined = $state(undefined);
-	let explosion_ref: HTMLElement | undefined = $state(undefined);
-	let explosion2_ref: HTMLElement | undefined = $state(undefined);
 </script>
 
 <Frame class="relative size-full">
-	<div class="z-3 flex h-full flex-col items-center">
+	<div class="z-3 flex h-full flex-col items-center ">
 		<img bind:this={character_ref} {...rest} class={portraitCls} />
 		<Header xxl>{name}</Header>
-		<PaperPs.Root/>
+		<!-- Particle Generator -->
+		<Particle.Generator
+			count={200}
+			position={{
+				start: {
+					x: { min: -0.5, max: -0.25 },
+					y: { min: 0.5, max: 0.5 }
+				},
+				end: {
+					x: { min: 1.25, max: 1.75 },
+					y: { min: -0.25, max: 1.25, as_delta: false }
+				}
+			}}
+			class="absolute top-0 left-0 size-full"
+			particleClass="duration-1600 absolute top-0 left-0 ease-in-out"
+		>
+			<span>📄</span>
+		</Particle.Generator>
 	
 	</div>
 </Frame>

@@ -1,12 +1,14 @@
 <script lang="ts">
+	import blueprint1 from "@assets/blueprint1.png"
+
 	import { Portrait } from "@lib/components";
 	import { Frame } from "sk-clib";
 </script>
 
 <!--Image with header fro character name, make sure it's centered to the box-->
 <div class="grid size-full grid-flow-col grid-rows-3 gap-4 bg-[#EBBB98]">
-	<div class=" flex justify-center col-span-1 row-span-2 mt-4 ml-4 pt-10 bg-[#A16A42] text-white">
-		Image with name of Character in big heading
+	<div class=" flex justify-center col-span-1 row-span-2 mt-4 ml-4 pt-10 bg-[#A16A42] text-white overflow-hidden">
+		<Portrait.MugArmy src={blueprint1} class="h-[50vh]" name="TheMugarmy"/>
 	</div>
 <!--This is the table to add strengths and weaknesses, just add on to it-->
 	<div class=" flex justify-center items-center col-span-1 mb-4 ml-4 overflow-auto bg-[#A16A42]">
