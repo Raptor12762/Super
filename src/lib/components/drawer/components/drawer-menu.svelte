@@ -20,7 +20,7 @@
 			w-[300px] h-full 
 			bg-primary
 			pt-[10px]
-			border-solid border-0 border-r border-def`
+			border-solid border-0 border-r border-def border-primary`
 		),
 
 		classBackdrop,
@@ -57,7 +57,7 @@
 	</Flex.Row>
 
 	<!-- Children-->
-	<Flex.Col class={cn('animate shrink-0 w-15 box-border pl-[10px] gap-3', $show$ && 'px-8 w-full')}>
+	<Flex.Col class={cn('animate shrink-0 w-15 box-border border-r-0 pl-[10px] border-primary border-none gap-3', $show$ && 'px-8 w-full')}>
 		{@render children?.()}
 	</Flex.Col>
 
