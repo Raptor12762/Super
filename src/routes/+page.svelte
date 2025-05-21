@@ -4,9 +4,10 @@
 	import frostflame from "@assets/frostflame.png"
 	import shattershot from "@assets/shattershot.png"
 	import seethru from "@assets/seethruStandard.png"
-	import placeholder from "@assets/shatterExplosion.png"
 	import { Shattershot } from '@root/lib/components/portrait';
 	import smartpot from "@assets/smartpot.png"
+	import stone from "@assets/stonepot.png"
+	import blueprint from "@assets/blueprint3.png"
 </script>
 
 <!--Logo Mug Corp-->
@@ -23,7 +24,7 @@
 	<div class="grid h-fit w-fit grid-cols-3 gap-40">
 		<a href="/characters/Heroes/Shattershot"><div class="mx-auto flex flex-col w-[20vw] rounded-xl bg-[#9013d9] ml-5 h-150 hover:shadow-xl/50 duration-300"><img src={shattershot} alt="Shattershot"> <span class="text-center text-white text-3xl mt-auto">Shattershot</span></div></a>
 		<a href="/characters/Heroes/FrostFlame"><div class="mx-auto flex flex-col w-[20vw] rounded-xl bg-[#9013d9] h-150 hover:shadow-xl/50 duration-300"><img src={frostflame} alt="Frostflame"><span class="text-center text-white text-3xl mt-auto">FrostFlame</span></div></a>
-		<a href="/characters/Heroes/Mugarmy"><div class="mx-auto flex flex-col w-[20vw] rounded-xl bg-[#9013d9] h-150 hover:shadow-xl/50 duration-300"><img src={placeholder} alt="Mug-Army"><span class="text-center text-white text-3xl mt-auto">The Mug-Army</span></div></a>
+		<a href="/characters/Heroes/Mugarmy"><div class="mx-auto flex flex-col w-[20vw] rounded-xl bg-[#9013d9] h-150 hover:shadow-xl/50 duration-300"><img src={blueprint} alt="Mug-Army"><span class="text-center text-white text-3xl mt-auto">The Mug-Army</span></div></a>
 	</div>
 
 	<h1 class="text-center text-5xl font-bold mt-5 mb-5">Teapots</h1>
@@ -31,6 +32,6 @@
 	<div class="grid h-fit w-fit grid-cols-3 gap-40 pb-4">
 		<a href="/characters/Villain/Seethru"><div class="mx-auto flex flex-col w-[20vw] rounded-xl bg-[#9013d9] ml-5 h-150 hover:shadow-xl/50 duration-300"><img src={seethru} alt="Seethru"><span class="text-center text-white text-3xl mt-auto">Seethru</span></div></a>
 		<a href="/characters/Villain/Smartpot"><div class="mx-auto flex flex-col w-[20vw] rounded-xl bg-[#9013d9] h-150 hover:shadow-xl/50 duration-300"><img src={smartpot} alt="Smartpots"><span class="text-center text-white text-3xl mt-auto">Smartpots</span></div></a>
-		<a href="/characters/Villain/Stonepot"><div class="mx-auto flex flex-col w-[20vw] rounded-xl bg-[#9013d9] h-150 hover:shadow-xl/50 duration-300"><img src={placeholder} alt="Stonepot"><span class="text-center text-white text-3xl mt-auto">Stonepot</span></div></a>
+		<a href="/characters/Villain/Stonepot"><div class="mx-auto flex flex-col w-[20vw] rounded-xl bg-[#9013d9] h-150 hover:shadow-xl/50 duration-300"><img src={stone} alt="Stonepot"><span class="text-center text-white text-3xl mt-auto">Stonepot</span></div></a>
 	</div>
 </Flex>
