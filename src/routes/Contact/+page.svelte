@@ -1,6 +1,6 @@
 <div class="flex size-full bg-[#EDCFFF]">
 	<div class=" m-auto rounded-xl bg-[#9013d9] p-8 pb-3">
-		<form class="w-full max-w-lg">
+		<form class="w-full max-w-lg" method="get">
 			<div class="-mx-3 mb-6 flex flex-wrap">
 				<div class="mb-6 w-full px-3 md:mb-0 md:w-1/2">
 					<label
