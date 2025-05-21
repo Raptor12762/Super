@@ -1,5 +1,5 @@
 <script lang="ts">
-	import ShattershotPortrait from "@assets/shattershot.png"
+	import StonepotPortrait from "@assets/stonepot.png"
 
 	import { Portrait } from "@lib/components";
 	import { Frame } from "sk-clib";
@@ -7,8 +7,8 @@
 
 <!--Image with header fro character name, make sure it's centered to the box-->
 <div class="grid size-full grid-flow-col grid-rows-3 gap-4 bg-[#616161]">
-	<div class=" flex justify-center col-span-1 row-span-2 mt-4 ml-4 pt-10 bg-[#304a31] text-white">
-		<Portrait.Shattershot src={ShattershotPortrait} class="h-[50vh]" name="Shattershot"/>
+	<div class=" flex justify-center col-span-1 row-span-2 mt-4 ml-4 pt-10 bg-[#304a31] text-white overflow-hidden">
+		<Portrait.Stonepot src={StonepotPortrait} class="h-[50vh]" name="Stonepot"/>
 	</div>
 <!--This is the table to add strengths and weaknesses, just add on to it-->
 	<div class=" flex justify-center items-center col-span-1 mb-4 ml-4 overflow-auto bg-[#304a31]">
