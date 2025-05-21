@@ -28,7 +28,7 @@
 			><div
 				class="mx-auto ml-5 flex h-150 w-[20vw] flex-col rounded-xl bg-[#9013d9] duration-300 hover:shadow-xl/50"
 			>
-				<img src={shattershot} alt="Shattershot" />
+				<img src={shattershot} alt="Shattershot" class="pt-10" />
 				<span class="mt-auto text-center text-3xl text-white">Shattershot</span>
 			</div></a
 		>
@@ -77,9 +77,7 @@
 			><div
 				class="mx-auto flex h-150 w-[20vw] flex-col rounded-xl bg-[#9013d9] duration-300 hover:shadow-xl/50"
 			>
-				<img src={stone} alt="Stonepot" /><span class="mt-auto text-center text-3xl text-white"
-					>Stonepot</span
-				>
+				<img src={stone} alt="Stonepot" class="pt-20" /><span class="mt-auto text-center text-3xl text-white">Stonepot</span>
 			</div></a
 		>
 	</div>
