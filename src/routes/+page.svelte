@@ -24,14 +24,6 @@
 	<h1 class="mt-5 mb-5 text-center text-5xl font-bold">Mugs</h1>
 
 	<div class="grid h-fit w-fit grid-cols-3 gap-40">
-		<a href="/characters/Heroes/Shattershot"
-			><div
-				class="mx-auto ml-5 flex h-150 w-[20vw] flex-col rounded-xl bg-[#9013d9] duration-300 hover:shadow-xl/50"
-			>
-				<img src={shattershot} alt="Shattershot" />
-				<span class="mt-auto text-center text-3xl text-white">Shattershot</span>
-			</div></a
-		>
 		<a href="/characters/Heroes/FrostFlame"
 			><div
 				class="mx-auto flex h-150 w-[20vw] flex-col rounded-xl bg-[#9013d9] duration-300 hover:shadow-xl/50"
@@ -41,6 +33,15 @@
 				>
 			</div></a
 		>
+		<a href="/characters/Heroes/Shattershot"
+			><div
+				class="mx-auto ml-5 flex h-150 w-[20vw] flex-col rounded-xl bg-[#9013d9] duration-300 hover:shadow-xl/50"
+			>
+				<img src={shattershot} alt="Shattershot" />
+				<span class="mt-auto text-center text-3xl text-white">Shattershot</span>
+			</div></a
+		>
+		
 		<a href="/characters/Heroes/Mugarmy"
 			><div
 				class="mx-auto flex h-150 w-[20vw] flex-col rounded-xl bg-[#9013d9] duration-300 hover:shadow-xl/50 items-center justify-between pb-1 pt-40"
