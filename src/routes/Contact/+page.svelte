@@ -1,10 +1,10 @@
 <div class="flex size-full bg-[#EDCFFF]">
-	<div class=" bg-[#9013d9] m-auto p-10 rounded-xl">
+	<div class=" m-auto rounded-xl bg-[#9013d9] p-8 pb-3">
 		<form class="w-full max-w-lg">
 			<div class="-mx-3 mb-6 flex flex-wrap">
 				<div class="mb-6 w-full px-3 md:mb-0 md:w-1/2">
 					<label
-						class="mb-2 block text-xs font-bold tracking-wide text-black-700 uppercase"
+						class="text-black-700 mb-2 block text-xs font-bold tracking-wide uppercase"
 						for="grid-first-name"
 					>
 						First Name
@@ -18,7 +18,7 @@
 				</div>
 				<div class="w-full px-3 md:w-1/2">
 					<label
-						class="mb-2 block text-xs font-bold tracking-wide text-black-700 uppercase"
+						class="text-black-700 mb-2 block text-xs font-bold tracking-wide uppercase"
 						for="grid-last-name"
 					>
 						Last Name
@@ -34,8 +34,8 @@
 			<div class="-mx-3 mb-6 flex flex-wrap">
 				<div class="w-full px-3">
 					<label
-						class="mb-2 block text-xs font-bold tracking-wide text-black-700 uppercase"
-						for="grid-password"
+						class="text-black-700 mb-2 block text-xs font-bold tracking-wide uppercase"
+						for="grid-email"
 					>
 						Email
 					</label>
@@ -50,7 +50,7 @@
 			<div class="-mx-3 mb-2 flex flex-wrap">
 				<div class="mb-6 w-full px-3 md:mb-0 md:w-1/3">
 					<label
-						class="mb-2 block text-xs font-bold tracking-wide text-black-700 uppercase"
+						class="text-black-700 mb-2 block text-xs font-bold tracking-wide uppercase"
 						for="grid-city"
 					>
 						City
@@ -64,7 +64,7 @@
 				</div>
 				<div class="mb-6 w-full px-3 md:mb-0 md:w-1/3">
 					<label
-						class="mb-2 block text-xs font-bold tracking-wide text-black-700 uppercase"
+						class="text-black-700 mb-2 block text-xs font-bold tracking-wide uppercase"
 						for="grid-state"
 					>
 						State
@@ -77,21 +77,21 @@
 							<option>Alabama</option>
 							<option>Alaska</option>
 							<option>Arizona</option>
-                            <option>Arkansas</option>
-                            <option>California</option>
-                            <option>Colorado</option>
-                            <option>Connecticut</option>
-                            <option>Delaware</option>
-                            <option>Florida</option>
-                            <option>Georgia</option>
-                            <option>Hawaii</option>
-                            <option>Idaho</option>
-                            <option>Illinois</option>
-                            <option>Indiana</option>
-                            <option>Iowa</option>
-                            <option>Kansas</option>
-                            <option>Kentucky</option>
-                            <option>Louisiana</option>
+							<option>Arkansas</option>
+							<option>California</option>
+							<option>Colorado</option>
+							<option>Connecticut</option>
+							<option>Delaware</option>
+							<option>Florida</option>
+							<option>Georgia</option>
+							<option>Hawaii</option>
+							<option>Idaho</option>
+							<option>Illinois</option>
+							<option>Indiana</option>
+							<option>Iowa</option>
+							<option>Kansas</option>
+							<option>Kentucky</option>
+							<option>Louisiana</option>
 							<option>Maine</option>
 							<option>Maryland</option>
 							<option>Massachusetts</option>
@@ -141,7 +141,7 @@
 				</div>
 				<div class="mb-6 w-full px-3 md:mb-0 md:w-1/3">
 					<label
-						class="mb-2 block text-xs font-bold tracking-wide text-black-700 uppercase"
+						class="text-black-700 mb-2 block text-xs font-bold tracking-wide uppercase"
 						for="grid-zip"
 					>
 						Zip
@@ -152,6 +152,35 @@
 						type="text"
 						placeholder="90210"
 					/>
+				</div>
+				<div class="mb-6 mt-2 w-full px-3 md:mb-0 md:w-full">
+					<label
+						class="text-black-700 mb-2 block text-xs font-bold tracking-wide uppercase"
+						for="grid-address"
+					>
+						Address
+					</label>
+					<input
+						class="block w-full appearance-none rounded border border-gray-200 bg-gray-200 px-4 py-3 leading-tight text-gray-700 focus:border-gray-500 focus:bg-white focus:outline-none"
+						id="grid-address"
+						type="text"
+						placeholder="12345 Seasame Street"
+					/>
+				</div>
+				<div class="mb-6 mt-2 w-full px-3 md:mb-0 md:w-full">
+					<label
+						class="text-black-700 mb-2 block text-xs font-bold tracking-wide uppercase"
+						for="grid-message"
+					>
+						Message
+					</label>
+
+					<textarea class="block w-full h-[80%] appearance-none rounded border border-gray-200 bg-gray-200 px-4 py-3 leading-tight text-gray-700 focus:border-gray-500 focus:bg-white focus:outline-none resize-none"></textarea>
+				</div>
+				<div class="w-full pt-5 px-3 mb-auto">
+				<button type="submit" class="bg-[#9013d9] hover:bg-white hover:text-black text-white font-bold border-2 py-1 px-2 rounded">
+  					Submit
+				</button>
 				</div>
 			</div>
 		</form>
