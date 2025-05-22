@@ -34,6 +34,7 @@
         This is our flowchart showing all of the navigation for the website. The colored arrows indicate primary and secondary links.
         Links through the navbar are main while ones through the footer or homepage are secondary.
         These are indicated by green (main) and red (secondary).
+        <br>
         You can also click on the image to see the full flowchart.
 	</div>
 </div>
